@@ -1,0 +1,14 @@
+{
+    "name": "b2g-cli-tool",
+    "description": "A command line client for b2g devices",
+    "license": "MPL-2.0",
+    "version": "0.1.0",
+    "dependencies": {
+        "node-firefox-connect": "1.2.0",
+        "node-firefox-install-app": "git://github.com/fabricedesre/node-firefox-install-app.git"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fabricedesre/b2gclitool.git"
+    }
+}
