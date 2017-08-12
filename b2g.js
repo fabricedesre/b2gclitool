@@ -241,11 +241,7 @@ function end_error(err) {
                 }
                 case 'update': {
                     let app_id = app_id_for(apps, arg2);
-                    if (app_id) {
-                        webapps.install(arg1, app_id).then(end_ok, end_error);
-                    } else {
-                        end_error(`No app id found for "${arg2}"`);
-                    }
+                    webapps.install(arg1, app_id).then(end_ok, end_error);
                     break;
                 }
                 case 'list': {
